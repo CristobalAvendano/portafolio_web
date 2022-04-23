@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/estilos.css" />
+    <title>Paciente</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4 col-lg-4 titulo_header">
+                <p>Consultorio<br>Metropolitano</p>
+            </div>
+            <div class="col-sm-4 col-lg-4 div_logo"><img
+                    src="C:\Users\Pola\Desktop\Web Portafolio\images/logo_consultorio.png" alt="logo"
+                    class="col logo_consultorio">
+            </div>
+            <div class="col-sm-4 col-lg-4">
+                <p id="contacto">Contacto</p>
+                <p id="informacion">Información</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="bienvenido col-sm-6 col-lg-6">
+                <p>Bienvenido</p>
+            </div>
+            <div class="fecha col-sm-6 col-lg-6">
+                <p id="fecha_actual"></p>
+            </div>
+        </div>
+        <div class="row" style="height:100%">
+            <nav class="navbar nav_menu">
+
+                <!-- Links -->
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <button type="button" class="btn boton_menu" href="#"><i class="icon_boton"></i>Agendar
+                            Hora</button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn boton_menu" href="#">Diagnosticos</button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn boton_menu" href="#" data-toggle="collapse"
+                            data-target="#demo">Examenes</button>
+                        <p id="demo" class="collapse">
+                            <a href="#" style="color: black; font-weight: 400;">- Subir Examen</a> <br><a href="#"
+                                style="color: black; font-weight: 400;">-
+                                Revisar
+                                Examen</a>
+
+                        </p>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn boton_menu" href="#">Reservas</button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn boton_menu" href="#">Historial</button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn boton_cerrar"><a href="index.html"
+                                style="color:white; text-decoration: none;">Cerrar Sesion</button></a>
+                    </li>
+                </ul>
+
+            </nav>
+
+        </div>
+</body>
+<script src="scripts/scripts.js"></script>
+
+</html>
